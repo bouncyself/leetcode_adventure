@@ -12,7 +12,6 @@ class Solution(object):
         """
         for i in range(len(s)//2):
             s[i],s[len(s)-i-1] = s[len(s)-i-1] ,s[i]
-
 '''
 题解：使用双指针，分别指向数组开头start，和结尾end
 start<end时，交换s[start],s[end]，start+1，end-1
